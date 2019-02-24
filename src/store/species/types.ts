@@ -1,0 +1,4 @@
+export enum SpeciesActionTypes {
+  FETCH_SPECIES = 'FETCH_SPECIES',
+  FETCH_DETAIL_SPECIES = 'FETCH_DETAIL_SPECIES'
+}

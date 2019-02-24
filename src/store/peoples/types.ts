@@ -1,0 +1,4 @@
+export enum PeoplesActionTypes{
+  FETCH_PEOPLES = 'FETCH_PEOPLES',
+  FETCH_DETAIL_PEOPLE = 'FETCH_DETAIL_PEOPLE'
+}

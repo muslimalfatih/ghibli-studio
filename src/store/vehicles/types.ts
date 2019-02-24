@@ -1,0 +1,4 @@
+export enum VehiclesActionTypes {
+  FETCH_VEHICLES = 'FETCH_VEHICLES',
+  FETCH_DETAIL_VEHICLES = 'FETCH_DETAIL_VEHICLES'
+}

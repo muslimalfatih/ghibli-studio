@@ -1,5 +1,5 @@
 {
-  "name": "studio-ghibli",
+  "name": "ghibli-studio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,9 +7,16 @@
     "@types/node": "11.9.4",
     "@types/react": "16.8.3",
     "@types/react-dom": "16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router-dom": "^4.3.1",
     "react": "^16.8.2",
+    "react-bulma-components": "^2.3.0",
     "react-dom": "^16.8.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "typescript": "3.3.3"
   },
   "scripts": {

@@ -1,0 +1,4 @@
+export enum FilmsActionTypes {
+  FETCH_FILMS = 'FETCH_FILMS',
+  FETCH_DETAIL_FILMS = 'FETCH_DETAIL_FILMS'
+}
