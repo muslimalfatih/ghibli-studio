@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/ghibli-studio/static/js/runtime~main.5ef84402.js"
   },
   {
-    "revision": "87820894882f65b66420",
-    "url": "/ghibli-studio/static/js/main.87820894.chunk.js"
+    "revision": "c270466b39e38af53f6a",
+    "url": "/ghibli-studio/static/js/main.c270466b.chunk.js"
   },
   {
     "revision": "7825fd719426cd698d02",
     "url": "/ghibli-studio/static/js/2.7825fd71.chunk.js"
   },
   {
-    "revision": "87820894882f65b66420",
+    "revision": "c270466b39e38af53f6a",
     "url": "/ghibli-studio/static/css/main.94869000.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ghibli-studio/static/css/2.e41d77c6.chunk.css"
   },
   {
-    "revision": "b18ced07d50f4355dc09757ee4963179",
+    "revision": "75bc74981c07a37bb1eb249cea78083a",
     "url": "/ghibli-studio/index.html"
   }
 ];
