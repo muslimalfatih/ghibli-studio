@@ -15,7 +15,7 @@ const store = createStore(reducers, applyMiddleware(thunk))
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </Provider>,document.getElementById('root'));
