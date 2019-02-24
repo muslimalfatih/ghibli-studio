@@ -1,0 +1,14 @@
+{
+  "short_name": "Ghibli Studio",
+  "name": "Ghibli Studio",
+  "icons": [
+    {
+    	"src": "favicon-16x16.png",
+    	"type": "image\/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
