@@ -11,19 +11,10 @@ interface TProps {
   fetchSpecies: any
 }
 interface TState {
-  data: any,
-  isLoading: boolean,
-  error: null
 }
 class Species extends Component<TProps, TState> {
   constructor(props: any) {
     super(props)
-
-    this.state = {
-      data: null,
-      isLoading: false,
-      error: null
-    }
   }
 
   componentDidMount() {
@@ -38,7 +29,7 @@ class Species extends Component<TProps, TState> {
         <h1 className="container__header">List of species in Ghibli's film</h1>
         <Columns>
           {
-            species ?
+            species.length !== 0 ?
               species.map((specie: any, index: number) => {
                 return (
                   <Columns.Column key={index} size={12}>

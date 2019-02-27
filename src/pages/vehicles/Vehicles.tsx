@@ -11,19 +11,10 @@ interface TProps {
   fetchVehicles: any
 }
 interface TState {
-  data: any,
-  isLoading: boolean,
-  error: null
 }
 class Vehicles extends Component<TProps, TState> {
   constructor(props: any) {
     super(props)
-
-    this.state = {
-      data: null,
-      isLoading: false,
-      error: null
-    }
   }
 
   componentDidMount() {
@@ -38,7 +29,7 @@ class Vehicles extends Component<TProps, TState> {
         <h1 className="container__header">List of vehicles in Ghibli's film</h1>
         <Columns>
           {
-            vehicles ?
+            vehicles.length !== 0 ?
               vehicles.map((vehicle: any, index: number) => {
                 return (
                   <Columns.Column key={index} size={12}>

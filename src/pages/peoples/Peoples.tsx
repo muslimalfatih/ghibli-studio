@@ -76,7 +76,7 @@ class Peoples extends Component<TProps, TState> {
         <h1 className="container__header">List of character in Ghibli's film</h1>
         <Columns>
           {
-            peoples ?
+            peoples.length !== 0 ?
               peoples.map((people: any, index: number) => {
                 return (
                   <Columns.Column key={index} size={12}>

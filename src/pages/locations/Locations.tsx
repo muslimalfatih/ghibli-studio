@@ -38,7 +38,7 @@ class Locations extends Component<TProps, TState> {
         <h1 className="container__header">List of location in Ghibli's film</h1>
         <Columns>
           {
-            locations ?
+            locations.length !== 0 ?
               locations.map((location: any, index: number) => {
                 return (
                   <Columns.Column key={index} size={12}>

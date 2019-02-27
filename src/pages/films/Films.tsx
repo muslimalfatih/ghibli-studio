@@ -26,10 +26,18 @@ interface TFilm {
 class Films extends React.Component<TProps, TState> {
   constructor(props: any) {
     super(props)
+
+    this.truncateText = this.truncateText.bind(this)
   }
 
   componentDidMount() {
     this.props.fetchFilms()
+  }
+
+  truncateText(text: string) {
+    if(text.length > 350) return text.substring(0,350)+'...'
+
+    return text
   }
 
   render(): React.ReactNode {
@@ -40,7 +48,7 @@ class Films extends React.Component<TProps, TState> {
         <h1 className="container__header">List of Ghibli's Films</h1>
         <Columns>
           {
-            films ?
+            films.length !== 0 ?
             films.map((film: TFilm, index: number) => {
               return (
                 <Columns.Column key={index} size={12}>
@@ -50,7 +58,7 @@ class Films extends React.Component<TProps, TState> {
                         <Image src={film.image} alt={film.name} className="is-128x128" />
                         <Content>
                           <h1>{film.title} <span>({film.release_date})</span></h1>
-                          <p>{film.description}</p>
+                          <p>{this.truncateText(film.description)}</p>
                         </Content>
                       </Card.Content>
                     </Card>
@@ -59,7 +67,7 @@ class Films extends React.Component<TProps, TState> {
               )
             })
             :
-            <LoaderWrapper />
+            <LoaderWrapper/>
           }
         </Columns>
       </Container>
