@@ -1,16 +1,16 @@
 {
-  "main.css": "/ghibli-studio/static/css/main.94869000.chunk.css",
-  "main.js": "/ghibli-studio/static/js/main.c270466b.chunk.js",
-  "main.js.map": "/ghibli-studio/static/js/main.c270466b.chunk.js.map",
+  "main.css": "/ghibli-studio/static/css/main.90c8b00a.chunk.css",
+  "main.js": "/ghibli-studio/static/js/main.a6ae6995.chunk.js",
+  "main.js.map": "/ghibli-studio/static/js/main.a6ae6995.chunk.js.map",
   "runtime~main.js": "/ghibli-studio/static/js/runtime~main.5ef84402.js",
   "runtime~main.js.map": "/ghibli-studio/static/js/runtime~main.5ef84402.js.map",
   "static/css/2.e41d77c6.chunk.css": "/ghibli-studio/static/css/2.e41d77c6.chunk.css",
-  "static/js/2.7825fd71.chunk.js": "/ghibli-studio/static/js/2.7825fd71.chunk.js",
-  "static/js/2.7825fd71.chunk.js.map": "/ghibli-studio/static/js/2.7825fd71.chunk.js.map",
+  "static/js/2.419a3307.chunk.js": "/ghibli-studio/static/js/2.419a3307.chunk.js",
+  "static/js/2.419a3307.chunk.js.map": "/ghibli-studio/static/js/2.419a3307.chunk.js.map",
   "index.html": "/ghibli-studio/index.html",
-  "precache-manifest.88f463c816426bb692043b6c8d81be42.js": "/ghibli-studio/precache-manifest.88f463c816426bb692043b6c8d81be42.js",
+  "precache-manifest.8d4a31cc87adc219439e45edceb578c6.js": "/ghibli-studio/precache-manifest.8d4a31cc87adc219439e45edceb578c6.js",
   "service-worker.js": "/ghibli-studio/service-worker.js",
   "static/css/2.e41d77c6.chunk.css.map": "/ghibli-studio/static/css/2.e41d77c6.chunk.css.map",
-  "static/css/main.94869000.chunk.css.map": "/ghibli-studio/static/css/main.94869000.chunk.css.map",
+  "static/css/main.90c8b00a.chunk.css.map": "/ghibli-studio/static/css/main.90c8b00a.chunk.css.map",
   "static/media/studio-ghibli-logo.png": "/ghibli-studio/static/media/studio-ghibli-logo.f456ee18.png"
 }
